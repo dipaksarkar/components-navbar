@@ -120,6 +120,8 @@ export default (editor: Editor, opts: RequiredPluginOptions) => {
         components: [
           {
             type: 'link',
+            draggable: false,
+            components: { type: 'image', draggable: false },
             attributes: { class: `${navbarPfx}-brand`, href: '/' },
           },
           { type: idBurgerMenu },
