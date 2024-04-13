@@ -122,6 +122,7 @@ export default (editor: Editor, opts: RequiredPluginOptions) => {
         components: [
           {
             type: 'link',
+            name: 'Logo',
             draggable: false,
             droppable: true,
             attributes: { class: `${navbarPfx}-brand`, href: '/' }
